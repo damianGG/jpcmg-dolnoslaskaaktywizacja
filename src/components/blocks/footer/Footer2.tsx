@@ -23,7 +23,7 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-map me-2 fs-25" ></i> Adres (Biuro projektu)</p>
                   <address>
-                    ul. Budowlana 50, pok. 202<br className="d-none d-md-block" />20-469 Lublin
+                    ul. Muchoborska 14 nr 003B, <br className="d-none d-md-block" />54-424 Wrocław
                   </address>
                 </div>
               </div>
@@ -32,7 +32,7 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-phone-alt me-2 fs-25"></i>Telefon</p>
                   <p>
-                    +48 530 871 800 <br />
+                    +48 881 500 075 <br />
                   </p>
                 </div>
               </div>
@@ -41,8 +41,8 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-envelope fs-25 me-2 "></i> e-mail</p>
 
-                  <Link href="mailto:wracamdopracy@jpmcg.pl" className="link-primary">
-                    wracamdopracy@jpmcg.pl
+                  <Link href="mailto:dolnoslaskaaktywizacja@jpmcg.pl" className="link-primary">
+
                   </Link>
                   <br className="d-none d-md-block" />
                 </div>

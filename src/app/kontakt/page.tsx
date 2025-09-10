@@ -50,14 +50,13 @@ export default function Kontakt() {
                 <div className="row">
                     <div className="col text-center">
                         <h1>Biuro Projektu</h1>
-                        <p><strong>Adres:</strong> ul. Budowlana 50, pok. 202, 20-469 Lublin</p>
+                        <p><strong>Adres:</strong> ul. Muchoborska 14 nr 003B, 54-424 Wrocław</p>
                         <p>Biuro projektu czynne jest od poniedziałku do piątku w godzinach 8:00 - 16:00 (istnieje możliwość umówienia się na inne godziny spotkania)</p>
-                        <p><strong>Tel:</strong> +48 530 871 800</p>
-                        <p><strong>E-mail:</strong> <a href="mailto:wracamdopracy@jpmcg.pl" className="link-primary" target="_blank">wracamdopracy@jpmcg.pl</a> </p>
+                        <p><strong>Tel:</strong> +48 881 500 075</p>
+                        <p><strong>E-mail:</strong> <a href="mailto:dolnoslaskaaktywizacja@jpmcg.pl" className="link-primary" target="_blank">dolnoslaskaaktywizacja@jpmcg.pl</a> </p>
                     </div>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9997.448458812958!2d22.54705367828883!3d51.21240461240658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472257ba2f171603%3A0xd196c07539b51414!2sBudowlana%2050%2C%2020-469%20Lublin!5e0!3m2!1spl!2spl!4v1727772205958!5m2!1spl!2spl"
-                        width={600}
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624.657159428347!2d16.97069028090449!3d51.109064092725575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc1e8b562e439%3A0xd5bdf4251f0f70d1!2sMuchoborska%2014%2F003b%2C%2054-424%20Wroc%C5%82aw!5e1!3m2!1spl!2spl!4v1757536220539!5m2!1spl!2spl" width={600}
                         height={450}
                         style={{ border: 0 }}
                         loading="lazy"

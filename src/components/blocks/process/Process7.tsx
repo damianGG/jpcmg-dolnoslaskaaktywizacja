@@ -87,10 +87,18 @@ export default async function Process7() {
             </p>
 
             <p>
-              Do wzięcia udziału w projekcie zapraszamy wszystkich chętnych spełniających wyżej
-              wymienione kryteria, a w szczególności zapraszamy kobiety powracające na rynek
-              pracy po przerwie związanej z koniecznością opieki nad dzieckiem lub osobą
-              zależną.
+              Rekrutacja realizowana będzie z uwzględnieniem zasady równych szans i płci oraz niedyskryminacji,
+              w tym dostępności dla osób z niepełnosprawnościami. Przy rekrutacji stosowane będą także zasady
+              zrównoważonego rozwoju.
+            </p>
+
+            <p>
+              Do wzięcia udziału w projekcie zapraszamy wszystkich chętnych spełniających wyżej wymienione
+              kryteria.
+            </p>
+            <p>
+              <strong>Istnieje możliwość skorzystania z tłumacza języka migowego, pętli indukcyjnej lub pomocy
+                asystenta osoby z niepełnosprawnością.</strong>
             </p>
           </div>
         </div>
@@ -101,32 +109,15 @@ export default async function Process7() {
           <div className="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
 
             <h2 className="display-4 mb-4 px-lg-14">Jak zgłosić się do projektu?</h2>
-            <p>Jeśli spełniasz warunki udziału w projekcie to: </p>
+            <p>Komplet dokumentów rekrutacyjnych można składać osobiście w Biurze projektu bądź przesyłać je
+              listownie lub e-mailem.</p>
             <div className="col-lg-12 order-lg-2">
               <div className="shadow-lg mt-10">
-                <div className="card-body p-6">
-                  <div className="d-flex flex-row justify-content-center">
-                    <div>
-                      {/* <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4">
-                        <span className="number">1</span>
-                      </span> */}
-                    </div>
-
-                    <div>
-                      <h4 className="mb-1">Wydrukuj dokumenty rekrutacyjne i wypełnij je</h4>
-                      <p className="mb-0"></p>
-                    </div>
-                  </div>
-                </div>
 
               </div>
               <div className="text-center mt-4">
 
-                <img height={100}
-                  src="/down-arrow-download-svgrepo-com.svg"
-
-                  alt="Picture of the author"
-                />
+                <h3 className="mb-1">Na komplet dokumentów rekrutacyjnych składa się:</h3>
 
               </div>
               <div className="shadow-lg mt-5">
@@ -139,8 +130,8 @@ export default async function Process7() {
                     </div>
 
                     <div>
-                      <h4 className="mb-1">Wybierz z Zakładu Ubezpieczeń Społecznych lub Powiatowego Urzędu Pracy
-                        wymagane zaświadczenie</h4>
+                      <h4 className="mb-1">Formularz rekrutacyjny – załącznik nr 1 do Regulaminu rekrutacji i uczestnictwa
+                        w projekcie;</h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>
@@ -162,7 +153,7 @@ export default async function Process7() {
                     </div>
 
                     <div>
-                      <h4 className="mb-1">Zgromadź pozostałe wymagane załączniki </h4>
+                      <h4 className="mb-1">zaśw./ośw./dok.potw.spełnienie kryt.form.(m.in.: status osoby z kategorii NEET) </h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>
@@ -184,9 +175,14 @@ export default async function Process7() {
                     </div>
 
                     <div>
-                      <h4 className="mb-1">Złóż komplet dokumentów osobiście lub za pośrednictwem osoby trzeciej do Biura
-                        projektu bądź prześlij je e-mailem/pocztą tradycyjną/kurierem na adres Biura
-                        projektu/email (patrz zakładka <a className="link-primary" href="/kontakt">„Kontakt”</a>) </h4>
+                      <h4 className="mb-1">Dokument potwierdzający miejsce zamieszkania na terenie województwa dolnośląskiego
+                        (np. zaświadczenie z Urzędu Miasta/Gminy lub deklaracja za śmieci lub akt własności
+                        lokalu mieszkalnego lub umowa najmu lokalu mieszkalnego lub PIT lub faktura np. za
+                        telefon (gdzie wskazany jest adresem miejsca zamieszkania) lub w przypadku osób
+                        pobierających np. 800 plus lub bon żłobkowy lub świadczenia z rodzinnego kapitału
+                        opiekuńczego -  decyzji wydanej w tej sprawie gdzie wskazano adres miejsca zamieszkania
+                        wnioskodawcy lub dokument z ZUS potwierdzający zgłoszenie do ubezpieczeń i miejsce
+                        zamieszkania uczestniczki projektu);</h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>
@@ -209,8 +205,11 @@ export default async function Process7() {
                     </div>
 
                     <div>
-                      <h4 className="mb-1">Skontaktujemy się z Tobą telefonicznie lub mailowo, żeby poinformować o
-                        zakwalifikowaniu do projektu. </h4>
+                      <h4 className="mb-1">Orzeczenie o stopniu niepełnosprawności w rozumieniu ustawy z dnia 27 sierpnia 1997 r.
+                        o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych (Dz. U.
+                        z 2023 r. poz. 100, z późn. zm.) lub orzeczenia albo innego dokumentu, o którym mowa
+                        w ustawie z dnia 19 sierpnia 1994 o ochronie zdrowia psychicznego (Dz. U. z 2022 r. poz.
+                        2123)(jeśli dotyczy); </h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>
@@ -223,14 +222,8 @@ export default async function Process7() {
 
           </div>
         </div>
-        <p className="text-center mt-15">
-          Jeśli potrzebujesz pomocy w wypełnieniu dokumentów rekrutacyjnych zapraszamy
-          do Biura projektu (patrz zakładka  <a className="link-primary" href="/kontakt">„Kontakt”</a>). Ponadto zapewniamy możliwość
-          skorzystania z tłumacza języka migowego, pętli indukcyjnej lub pomocy asystenta
-          osoby z niepełnosprawnością.<br /> Dla osób, które mają problem z dojazdem do Biura
-          projektu (gdyż np. posiadają pod opieką dziecko/dzieci/osoby zależne; osoby z
-          niepełnosprawnościami) możliwy jest dojazd do Kandydatów do domu i pomoc kadry
-          projektu w wypełnieniu dokumentów rekrutacyjnych.
+        <p className="text-center mt-15 ">
+          Aby uzyskać więcej informacji prosimy o kontakt z Biurem projektu – dane w zakładce <a className="link-primary" href="/kontakt">„Kontakt”</a>
         </p>
       </div>
       <div className="container pt-10 pt-md-10 pb-13 pb-md-15">

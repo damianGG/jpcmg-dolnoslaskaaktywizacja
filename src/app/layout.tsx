@@ -14,8 +14,8 @@ import PopupForm from "@/components/blocks/form/popupform";
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Projekt Wracam do pracy!",
-  description: "Projekt Wracam do pracy!",
+  title: "Dolnośląska Fabryka Aktywizacji",
+  description: "Dolnośląska Fabryka Aktywizacji",
 };
 
 export default function RootLayout({

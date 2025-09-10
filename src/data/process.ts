@@ -17,20 +17,34 @@ export const processList1 = [
   {
     no: "1",
     className: "me-lg-6",
-    title: "osoby powyżej 18 roku życia",
+    title: "Osoby w wieku 18 – 29 lat",
     subtitle: "",
     shadow: true
   },
   {
     no: "2",
-    title: "zamieszkujące na obszarze woj. lubelskiego",
+    title: "Osoby zamieszkujące na terenie województwa dolnośląskiego,",
     className: "me-lg-6 mt-6",
     shadow: true,
     subtitle: ""
   },
   {
     no: "3",
-    title: "pozostające bez pracy – bezrobotne lub bierne zawodowo",
+    title: "Osoby pozostające poza zatrudnieniem, edukacją i szkoleniem (osoby z kategorii NEET)",
+    className: "me-lg-6 mt-6",
+    subtitle: "",
+    shadow: true
+  },
+  {
+    no: "4",
+    title: "Osoba bezrobotna",
+    className: "me-lg-6 mt-6",
+    subtitle: "",
+    shadow: true
+  },
+  {
+    no: "5",
+    title: "Osoba bierna zawodowo",
     className: "me-lg-6 mt-6",
     subtitle: "",
     shadow: true
