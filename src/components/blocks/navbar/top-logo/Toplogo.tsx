@@ -8,7 +8,7 @@ export default function Toplogo() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <Image
-        src="/img/logos/lubelskie_logo-removebg-preview.png"
+        src="/img/logos/feds.jpg"
         alt="logo"
         sizes="90vw"
         width={1200}
