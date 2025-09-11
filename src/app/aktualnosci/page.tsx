@@ -7,7 +7,7 @@ import flagaUe from '@/icons/flaga-ue-tlo.png'
 const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
 async function getStrapiData() {
-    const data = await fetch(`${backendLink}/api/aktualnosci-wracam-do-pracies?sort=id:desc`,
+    const data = await fetch(`${backendLink}/api/aktualnosci-dcis?sort=id:desc`,
 
         {
             cache: 'no-store',

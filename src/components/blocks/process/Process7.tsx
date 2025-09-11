@@ -36,7 +36,7 @@ interface StrapiResponse {
 
 export async function getStrapiData() {
   try {
-    const response = await fetch(`${backendLink}/api/dokumenty-wracam-do-pracies?sort=rank:asc&populate=*`, {
+    const response = await fetch(`${backendLink}/api/dokumenty-dcis?sort=rank:asc&populate=*`, {
       method: 'GET',
       cache: "no-cache",
       headers: {
