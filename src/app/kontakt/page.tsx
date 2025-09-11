@@ -68,7 +68,7 @@ export default function Kontakt() {
                         <h2>Siedziba J&P Moritz Consulting Group Sp. z o. o.</h2>
                         <p><strong>Adres: </strong> ul. Plac Solny 14 lok. 3, 50-062 Wrocław</p>
                         <p><strong>Strona: </strong><Link href="http://jpmcg.pl" className="link-primary" target="_blank">www.jpmcg.pl</Link></p>
-                        <p><strong>Facebook: </strong><Link href="https://www.facebook.com/profile.php?id=61558567391191" className="link-primary" target="_blank">J&P</Link></p>
+                        <p><strong>Facebook: </strong><Link href="https://www.facebook.com/profile.php?id=61580160008255" className="link-primary" target="_blank">J&P</Link></p>
                         <p><strong>Tel: </strong> +48 531 954 000</p>
                         <p><strong>E-mail: </strong><a href="mailto:biuro@jpmcg.pl" className="link-primary" target="_blank">biuro@jpmcg.pl</a> </p>
                     </div>

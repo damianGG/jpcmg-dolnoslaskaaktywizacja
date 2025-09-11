@@ -42,7 +42,7 @@ export default function Footer2() {
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-envelope fs-25 me-2 "></i> e-mail</p>
 
                   <Link href="mailto:dolnoslaskaaktywizacja@jpmcg.pl" className="link-primary">
-
+                    dolnoslaskaaktywizacja@jpmcg.pl
                   </Link>
                   <br className="d-none d-md-block" />
                 </div>
@@ -55,7 +55,7 @@ export default function Footer2() {
 
 
 
-                  <Link href="https://www.facebook.com/profile.php?id=61558567391191" className="link-primary" target="_blank">J&P Moritz Consulting Group Sp. z o. o.</Link>
+                  <Link href="https://www.facebook.com/profile.php?id=61580160008255" className="link-primary" target="_blank">J&P Moritz Consulting Group Sp. z o. o.</Link>
 
                 </div>
               </div>
