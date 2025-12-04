@@ -50,13 +50,14 @@ export default function Kontakt() {
                 <div className="row">
                     <div className="col text-center">
                         <h1>Biuro Projektu</h1>
-                        <p><strong>Adres:</strong> ul. Muchoborska 14 nr 003B, 54-424 Wrocław</p>
+                        <p><strong>Adres:</strong> ul. Stanisława Wyspiańskiego 2f,sala nr 24, 57-300 Kłodzko</p>
                         <p>Biuro projektu czynne jest od poniedziałku do piątku w godzinach 8:00 - 16:00 (istnieje możliwość umówienia się na inne godziny spotkania)</p>
                         <p><strong>Tel:</strong> +48 881 500 075</p>
                         <p><strong>E-mail:</strong> <a href="mailto:dolnoslaskaaktywizacja@jpmcg.pl" className="link-primary" target="_blank">dolnoslaskaaktywizacja@jpmcg.pl</a> </p>
                     </div>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624.657159428347!2d16.97069028090449!3d51.109064092725575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc1e8b562e439%3A0xd5bdf4251f0f70d1!2sMuchoborska%2014%2F003b%2C%2054-424%20Wroc%C5%82aw!5e1!3m2!1spl!2spl!4v1757536220539!5m2!1spl!2spl" width={600}
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d598.1938412470518!2d16.66035317779697!3d50.43200560991435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470e170e8aa5652d%3A0x32ac841f96e89e11!2sS.%20Wyspia%C5%84skiego%202F%2C%2057-300%20K%C5%82odzko!5e1!3m2!1spl!2spl!4v1764828625753!5m2!1spl!2spl"
+                        width={600}
                         height={450}
                         style={{ border: 0 }}
                         loading="lazy"
