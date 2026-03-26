@@ -7,18 +7,31 @@ import flagaUe from '@/icons/flaga-ue-tlo.png'
 const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
 async function getStrapiData() {
-    const data = await fetch(`${backendLink}/api/aktualnosci-dcis?sort=id:desc`,
+    const pageSize = 100;
+    let page = 1;
+    let pageCount = 1;
+    const allArticles: any[] = [];
 
-        {
-            cache: 'no-store',
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${process.env.BEARER_TOKEN}`
-            },
-        }
-    );
-    return data.json();
+    while (page <= pageCount) {
+        const response = await fetch(
+            `${backendLink}/api/aktualnosci-dcis?sort=id:desc&pagination[page]=${page}&pagination[pageSize]=${pageSize}`,
+            {
+                cache: 'no-store',
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${process.env.BEARER_TOKEN}`
+                },
+            }
+        );
+
+        const json = await response.json();
+        allArticles.push(...(json.data || []));
+        pageCount = json.meta?.pagination?.pageCount || 1;
+        page += 1;
+    }
+
+    return allArticles;
 }
 
 export const metadata: Metadata = {
@@ -44,7 +57,7 @@ function createSlug(text: string): string {
 }
 
 export default async function News() {
-    const { data } = await getStrapiData();
+    const data = await getStrapiData();
 
     // Sortowanie danych według daty od najnowszej do najstarszej
     const sortedData = data.sort((a: any, b: any) => new Date(b.attributes.data).getTime() - new Date(a.attributes.data).getTime());
